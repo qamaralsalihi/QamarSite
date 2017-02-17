@@ -1,0 +1,92 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+#topbar {               
+    width: auto;
+    margin: 0 auto;
+    background-color: floralwhite;
+    height: 45px;     
+     
+}
+
+#backgroundweb {
+    width: auto;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    height: auto;
+}
+        
+#logo {
+     margin-top: 8px;
+     width: 90px;
+     margin-right: 20px;
+     float: left;
+     margin-left: 20px;
+     
+}
+
+#link.sectionbar {
+    
+    float: left;
+    border-left: 1px grey solid;
+    height: 100%;
+}
+
+#sighinpic {
+    
+    width: 24px;
+    float: left;
+    margin: 10px 15px
+    
+}
+
+#steemittext {
+    
+    font-weight: lighter;
+    font-size: 90%;
+    position: relative;
+    top: 13px;
+}
+
+.dropbtn {
+    background-color: floralwhite;
+    color: black;
+    padding: 16px;
+    font-size: 92%;
+    border: none;
+}
+
+.dropdown {
+    float:right;
+    font-size: 98%;
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: antiquewhite;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,2,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: peachpuff;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
