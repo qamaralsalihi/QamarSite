@@ -1,92 +1,113 @@
-body {
-margin: 0;
-padding: 0;
+html, body {
+    margin: 0px;
+    min-width: 100%;
 }
 
 #topbar {               
     width: auto;
     margin: 0 auto;
-    background-color: floralwhite;
-    height: 45px;     
-     
+    background-color: seashell;
+    height: 40px;
 }
 
-#backgroundweb {
-    width: auto;
-    margin: 0 auto;
-    background-color: antiquewhite;
-    height: auto;
-}
-        
-#logo {
-     margin-top: 8px;
+#fblogo {
+     margin-top: 5px;
      width: 90px;
      margin-right: 20px;
      float: left;
-     margin-left: 20px;
-     
+     margin-left: 3px;
+     height: 30px;
+    width: 30px;
 }
-
-#link.sectionbar {
-    
-    float: left;
-    border-left: 1px grey solid;
-    height: 100%;
+ul{
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    margin: 0px;
+    padding: 20px;
 }
-
-#sighinpic {
-    
-    width: 24px;
-    float: left;
-    margin: 10px 15px
-    
+ul li {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    font-family: big john;
 }
-
-#steemittext {
-    
-    font-weight: lighter;
-    font-size: 90%;
-    position: relative;
-    top: 13px;
-}
-
-.dropbtn {
-    background-color: floralwhite;
-    color: black;
-    padding: 16px;
-    font-size: 92%;
-    border: none;
-}
-
-.dropdown {
-    float:right;
-    font-size: 98%;
-    position: relative;
-    bottom: 5px;
-    right: 10px;
-}
-
-.dropdown-content {
-    display: none;
-    background-color: antiquewhite;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,2,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 10px 15px;
+ul li a {
     text-decoration: none;
-    display: block;
+    color: black;
+    padding: 20px;
+}
+ul li a:hover {
+    background-color: bisque;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    margin: 0px;
+    border-radius: 10px;
+}
+footer {
+    background-color: white;
+    text-align: center;
+    color: black;
+    margin: auto;
+    padding: 40px;
+    position:absolute;
+    right:0px;top:780px;left:0px;bottom:10px;
 }
 
-.dropdown-content a:hover {
-    background-color: peachpuff;
-
+img.cover {
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    margin: 0px;
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.first-parg {
+    position: absolute;
+    top:0px;left:0px;right:0px;bottom:0px;
+    margin:0px;
 }
-
+.first-parg p {
+    text-align:center;
+    color: peachpuff;
+    display:block;
+    margin-top:-530px;
+    font-size:40pt;
+    font-family: big john;
+}
+.first-parg-about {
+    position: absolute;
+    top:0px;left:0px;right:0px;bottom:0px;
+    margin:0px;
+}
+.first-parg-about p {
+    text-align: center;
+    color: palegoldenrod;
+    display:block;
+    margin-top:-530px;
+    font-size:40px;
+    font-style: italic;
+}
+.first-parg-interests {
+    position: absolute;
+    top:0px;left:0px;right:0px;bottom:0px;
+    margin:0px;
+}
+.first-parg-interests p {
+    text-align: center;
+    color: palegoldenrod;
+    display:block;
+    margin-top:-530px;
+    font-size:40px;
+    font-style: italic;
+}
+.first-parg-contact {
+    position: absolute;
+    top:0px;left:0px;right:0px;bottom:0px;
+    margin:0px;
+}
+.first-parg-contact p {
+    text-align: center;
+    color: palegoldenrod;
+    display:block;
+    margin-top:-530px;
+    font-size:40px;
+    font-style: italic;
+}
